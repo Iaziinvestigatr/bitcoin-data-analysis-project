@@ -6,75 +6,66 @@
 
 ### Overview
 
-This project delivers a comprehensive financial analysis of **Bitcoin’s performance and volatility** compared to the **S&P 500** during the year **2021**.  
-The analysis combines **Excel-based visual analytics** with **SQL-driven KPI identification**, enabling data-backed insights into Bitcoin’s **risk–return profile**.
+This project provides a comprehensive analysis of Bitcoin price data using advanced Excel skills.  
+The process involves importing, cleaning, and exploring the dataset, and presenting findings with visualizations.  
+The analysis aims to compare Bitcoin's performance and volatility with the S&P500 over the year 2021.
 
 ---
 
 ### Project Workflow
 
-#### 1. Data Import & Setup
-- Imported the dataset provided by *Manuela, Head of Finance*, containing **Bitcoin** and **S&P 500** historical data.  
-- Data was loaded into **SQL** and **Excel** environments for analysis and visualization.
+#### 1. Importing Data
+- The project starts with importing the dataset provided by Manuela, the Head of Finance, which includes data on Bitcoin and the S&P500.  
+- The data is loaded into Excel for further analysis.
 
-#### 2. Data Cleaning
-- Inspected datasets for **missing values**, **date inconsistencies**, and **formatting errors**.  
-- Cleaned and standardized records in **SQL** to ensure integrity and consistency before analysis.
+#### 2. Cleaning Data
+- The imported dataset is inspected for any inconsistencies, missing values, or errors.  
+- Necessary cleaning steps are performed to ensure the accuracy and completeness of the data.
 
-#### 3. KPI Identification Using SQL
-- Utilized **advanced SQL queries** to calculate and extract key performance indicators (KPIs), including:  
-  - Average daily return and volatility  
-  - Monthly percentage change  
-  - Correlation between Bitcoin and S&P 500  
-  - Maximum drawdown and peak recovery periods  
-- These KPIs formed the foundation for **comparative analysis** and **dashboard visualizations**.
+#### 3. Exploring Data with Pivot Tables and Formulas
+- Pivot tables and various Excel formulas are used to explore the numeric data.  
+- Key metrics such as average price, daily changes, and volatility are calculated for both Bitcoin and the S&P500.  
+- **Advanced SQL queries were also used to identify key performance indicators (KPIs) and aggregate metrics for more accurate analysis.**
 
-#### 4. Exploratory Analysis in Excel
-- Created **Pivot Tables** and applied **Excel formulas** to explore trends and outliers.  
-- Computed **statistical summaries** such as mean, standard deviation, and return differentials.
+#### 4. Comparative Analysis
+- Bitcoin's behaviour is compared to the S&P500, focusing on the year 2021.  
+- The analysis highlights potential upsides and volatility of Bitcoin relative to the S&P500.  
+- **SQL-derived KPIs provided a validated foundation for comparative insights.**
 
-#### 5. Comparative Analysis
-- Compared Bitcoin’s performance metrics against the S&P 500 to assess:  
-  - Return potential  
-  - Volatility and risk exposure  
-  - Market correlation  
-- Insights revealed that **Bitcoin offered higher short-term upside** but **significantly higher volatility** than the S&P 500 in 2021.
-
-#### 6. Visualization of Findings
-- Developed **interactive charts and graphs** in Excel to visualize:  
-  - Daily price movements  
-  - Volatility distribution  
-  - Comparative performance trends  
-- Presented findings through a **professional financial dashboard** for stakeholder review.
+#### 5. Visualizing Findings
+- The findings from the analysis are communicated through various visualizations.  
+- Charts and graphs are created to effectively compare Bitcoin and the S&P500.
 
 ---
 
 ### Scenario
 
-*Manuela, the Head of Finance*, requested an analytical report to evaluate **Bitcoin’s investment potential**.  
-The goal was to **quantify Bitcoin’s performance relative to the S&P 500** and assess its **suitability in a diversified portfolio**.
+Manuela, the Head of Finance, has requested an analysis of Bitcoin's performance due to her interest in its potential upsides and concerns about its volatility.  
+The provided dataset includes data on both Bitcoin and the S&P500, allowing for a comprehensive comparison over the year 2021.
 
 ---
 
 ### Files
-- **Raw Dataset** – Historical Bitcoin and S&P 500 data  
-- **Cleaned Dataset** – Processed and standardized data  
-- **SQL Scripts** – Queries used for KPI extraction and cleaning  
-- **Excel Analysis File** – Contains pivot tables, metrics, and visualizations  
-- **README** – Documentation outlining workflow and insights  
+
+- **Dataset**: Contains the raw data for Bitcoin and the S&P500.  
+- **Cleaned Data**: The dataset after cleaning and preparation for analysis.  
+- **Analysis File**: Excel file with detailed analysis, including pivot tables, formulas, and visualizations.  
+- **Readme**: This document explains the project workflow and contents.
 
 ---
 
 ### Usage
-1. Load raw data into a **SQL database**.  
-2. Run provided **SQL scripts** to clean data and extract KPIs.  
-3. Export cleaned data to **Excel**.  
-4. Perform **visual and statistical analysis** using pivot tables and charts.  
-5. Present findings using **dashboards or reports**.
+
+1. **Load the dataset** into Excel.  
+2. **Clean** the data to address any inconsistencies.  
+3. **Explore** the data using pivot tables and formulas.  
+4. **Perform a comparative analysis** of Bitcoin and the S&P500.  
+5. **Visualize** the findings to present to stakeholders.
 
 ---
 
 ### Conclusion
 
-This project demonstrates how combining **SQL for analytical computation** and **Excel for visualization** can produce **robust, data-driven financial insights**.  
-By comparing Bitcoin and S&P 500 performance metrics, the analysis provides **actionable intelligence** on volatility, correlation, and investment suitability for decision-makers in finance.
+This project demonstrates an in-depth analysis of Bitcoin price data using Excel.  
+By comparing Bitcoin's performance and volatility with the S&P500, the project provides valuable insights to inform financial decision-making.  
+**The use of SQL for KPI identification enhanced the accuracy and reliability of the analysis.**
